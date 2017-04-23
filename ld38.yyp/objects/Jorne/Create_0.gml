@@ -10,4 +10,4 @@ ds_queue_enqueue(q, "It's a little small, but I hope you can make the best of it
 
 _messageQueue = q;
 
-make_dialog(ds_queue_dequeue(q), Jorne_message_callback, id);
+make_dialog(ds_queue_dequeue(q), queue_dialog_callback, id);
